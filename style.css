@@ -80,3 +80,9 @@ section footer p a {
   font-weight: 600;
   text-decoration: underline;
 }
+
+@media (max-width: 960px) {
+  .main-container {
+    flex-direction: column;
+  }
+}
